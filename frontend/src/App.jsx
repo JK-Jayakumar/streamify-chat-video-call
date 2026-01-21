@@ -17,6 +17,7 @@ import { getAuthUser } from './lib/api.js'
 import useAuthUser from './hooks/useAuthUser.js'
 import Layout from './components/Layout.jsx'
 import { useThemeStore } from './store/useThemeStore.js'
+import FriendsPage from './pages/FriendsPage.jsx'
 
 const App = () => {
   
@@ -58,6 +59,13 @@ const App = () => {
           path='/notifications' 
             element={
                isAuthenticated && isOnboarded ? (<Layout ShowSidebar={true}> <NotificationsPage/> </Layout>) : (<Navigate to={!isAuthenticated ? "/login" : "/onbording"} />)
+           }
+        />
+
+        <Route 
+          path='/friends' 
+            element={
+               isAuthenticated && isOnboarded ? (<Layout ShowSidebar={true}> <FriendsPage/> </Layout>) : (<Navigate to={!isAuthenticated ? "/login" : "/onbording"} />)
            }
         />
         <Route

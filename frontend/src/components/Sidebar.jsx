@@ -18,7 +18,7 @@ const Sidebar = () => {
             <Link to="/" className='flex items-center gap-2.5'>
               <ShipWheelIcon className='size-9 text-primary' />
                 <span className='text-3xl font-bold font-mono bg-clip-text text-transparent bg-gradient-to-t from-primary to-secondary tracking-wider'>
-                    Streamify
+                    Livly
                 </span>
             </Link>
         </div>
@@ -59,9 +59,8 @@ const Sidebar = () => {
                 <div className='flex-1'>
                     <p className='font-semibold text-sm'>{authUser?.fullName} </p>
                     <p className='text-xs text-success flex items-center gap-1'>
-                        <span className='size-2 rounded-full bg-success inline-block'>
+                        <span className='size-2 rounded-full bg-success inline-block'/>
                             Online
-                        </span>
                     </p>
                 </div>
             </div>

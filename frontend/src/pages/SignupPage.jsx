@@ -40,7 +40,7 @@ const SignupPage = () => {
           <div className='mb-4 flex items-center justify-start gap-2'>
             <ShipWheelIcon className="size -9 text-primary" />
             <span className='text-3xl font-bold font-mono bg-clip-text text-transparent bg-gradient-to-tr from-primary to-secondary tracking-wider'>
-              Streamify
+              Livly
             </span>
           </div>
 
@@ -55,7 +55,7 @@ const SignupPage = () => {
                 <div>
                   <h2 className='text-xl font-semibold'> Create an Account </h2>
                   <p className='text-sm opacity-70'>
-                    Join Streamify and start your language learning adventure!
+                    Join Livly and start your language learning adventure!
                   </p>
                 </div>
                 <div className='space-y-3'>
@@ -125,10 +125,10 @@ const SignupPage = () => {
                 </button>
 
                 <div className='text-primary mt-4'>
-                  <p className='text-sm flex items-center justify-center'> 
-                    Already have an account ? {" "}
-                    <Link to="/login" className='text-primary hover:underline'>
-                    Sign in
+                    <p className="text-sm flex items-center justify-center">
+                    Already have an account?
+                    <Link to="/login" className="ml-1 text-primary hover:underline">
+                      Sign in
                     </Link>
                   </p>
                 </div>

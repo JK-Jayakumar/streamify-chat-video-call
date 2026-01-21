@@ -91,7 +91,7 @@ const OnboardingPage = () => {
                 type='text'
                 name='fullname'
                 value={formState.fullName}
-                onChange={(e) => setFormState({...formState, fullname: e.target.value})}
+                onChange={(e) => setFormState({...formState, fullName: e.target.value})}
                 className='input input-bordered w-full'
                 placeholder='Your FullName'
                 />
@@ -118,7 +118,7 @@ const OnboardingPage = () => {
                   </label>
 
                   <select
-                  name='nativeLanaguage'
+                  name='nativeLanguage'
                   value={formState.nativeLanguage}
                   onChange={(e) => setFormState({ ...formState, nativeLanguage:e.target.value })}
                   className='select select-bordered w-full'
@@ -146,7 +146,7 @@ const OnboardingPage = () => {
                     >
                       <option  value="">Select language you're learning </option>
                       {LANGUAGES.map((lang) => (
-                        <option key={`learning-${lang}`} value={lang.toLowerCase}>
+                        <option key={`learning-${lang}`} value={lang.toLowerCase()}>
                           {lang}
                         </option>
                       ))}
