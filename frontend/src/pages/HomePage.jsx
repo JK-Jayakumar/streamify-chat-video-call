@@ -132,7 +132,7 @@ const HomePage = () => {
                         </span>
                         <span className="badge badge-outline">
                           {getLanguageFlag(user.learningLanguage)}
-                          Learning: {capitialize(user.learningLanguage)}
+                          Interest: {capitialize(user.learningLanguage)}
                         </span>
                       </div>
 

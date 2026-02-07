@@ -22,7 +22,7 @@ const FriendCard = ({friend}) => {
           </span>
           <span className="badge badge-outline text-xs">
             {getLanguageFlag(friend.learningLanguage)}
-            Learning: {friend.learningLanguage}
+            Interest: {friend.learningLanguage}
           </span>
         </div>
 
