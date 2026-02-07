@@ -16,7 +16,10 @@ const PORT = process.env.PORT
 const __dirname = path.resolve();
 
 app.use(cors({
-  origin: "http://localhost:5173", // frontend port
+  origin: [
+      "http://localhost:5173",
+      "https://YOUR-FRONTEND.onrender.com"
+    ], // frontend port
   credentials: true,               //  allow cookies
 }));
 app.use(express.json());
