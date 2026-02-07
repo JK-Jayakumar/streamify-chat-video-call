@@ -21,6 +21,7 @@
     "react-router": "^7.7.1",
     "stream-chat": "^9.28.0",
     "stream-chat-react": "^13.13.3",
+    "@vitejs/plugin-react": "^4.4.1",
     "zustand": "^5.0.8",
     "vite": "^6.3.5"
   },
@@ -28,7 +29,6 @@
     "@eslint/js": "^9.25.0",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
-    "@vitejs/plugin-react": "^4.4.1",
     "autoprefixer": "^10.4.21",
     "daisyui": "^4.12.24",
     "eslint": "^9.25.0",
